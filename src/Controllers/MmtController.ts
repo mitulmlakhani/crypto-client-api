@@ -17,7 +17,7 @@ export default class MmtController {
             const balance = await this.tokenService.getBalance(req.params.address).then(response => {
                 return response;
             }).catch((error: any) => {
-                throw error.message;
+                throw error;
             });
 
             const response = {
