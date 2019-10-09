@@ -2,6 +2,7 @@ import * as express from "express";
 import * as bodyParser from "body-parser";
 import EthRouter from "./../Routes/eth";
 import MmtRouter from "./../Routes/mmt";
+import BtcRouter from "./../Routes/btc";
 
 class App {
     public app : express.Application;
@@ -17,6 +18,7 @@ class App {
         // Routes
         this.app.use('/eth', EthRouter);
         this.app.use('/mmt', MmtRouter);
+        this.app.use('/btc', BtcRouter);
     }
 
 }
