@@ -30,7 +30,8 @@
     "web3": "^1.2.1",
     "bignumber.js": "^9.0.0",
     "bitcoin-core": "^2.2.1",
-    "uuid": "^3.3.3"
+    "uuid": "^3.3.3",
+    "monero-rpc": "^0.5.0"
   },
   "devDependencies": {
     "ts-node": "^8.4.1",
