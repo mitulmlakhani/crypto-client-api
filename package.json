@@ -1,5 +1,5 @@
 {
-  "name": "cryptomerchat-core-node-api",
+  "name": "crypto-client-api",
   "version": "1.0.0",
   "description": "ETH, ERC20 TOKEN, BTC, LTC and XMR wallet api integration.",
   "main": "server.js",
